@@ -1,0 +1,44 @@
+# ========== 本地开发笔记（不提交） ==========
+DEV-NOTES.local.md
+*.local.md
+
+# ========== 密钥与配置（绝不提交） ==========
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+office-gateway-certs/
+
+# ========== Rust 实现（已暂停维护，不提交） ==========
+gateway_unified/claude-gateway-rs/
+RUST-NOTES.md
+rust-toolchain.toml
+
+# ========== Python ==========
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+venv.bak/
+dist/
+build/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ========== 系统与编辑器 ==========
+.DS_Store
+Thumbs.db
+*.log
+*.swp
+.idea/
+.vscode/
+*.iml
+
+# ========== 打包产物 ==========
+*.zip
+*.tar.gz
+*.tgz
